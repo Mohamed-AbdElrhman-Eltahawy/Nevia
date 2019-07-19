@@ -1,4 +1,4 @@
-# Nevia Template Structuer 
+# Nevia Template Structure 
 
 Section | Width
 ------------ | -------------
@@ -9,4 +9,4 @@ Navbar | Full Width
 Icon Box | boxed
 Recent Work | boxed
 Recent News | boxed
-Footer | boxed
+Footer | boxed 
