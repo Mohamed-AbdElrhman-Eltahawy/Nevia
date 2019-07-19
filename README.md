@@ -2,5 +2,11 @@
 
 Section | Width
 ------------ | -------------
-Header | Boxing Width
+Header | boxed
 Navbar | Full Width
+Slider | Full Width
+Navbar | Full Width
+Icon Box | boxed
+Recent Work | boxed
+Recent News | boxed
+Footer | boxed
