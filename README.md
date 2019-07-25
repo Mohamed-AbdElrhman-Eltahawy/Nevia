@@ -15,4 +15,4 @@ Footer | boxed
 
 ### 2- Added my  Stylesheet link  & Add my script source.
 
-### 3- Add Css sections files.
+### 3- Added Css sections files.
