@@ -1,4 +1,4 @@
-# Change Loge
+# Change Log
 ## Nevia Template Structure
 
 Section | Width
