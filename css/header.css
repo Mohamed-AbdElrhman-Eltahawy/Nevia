@@ -1,0 +1,34 @@
+/* Left Section in header... */
+.left-header {
+	padding-top: 60px
+}
+
+.header-text {
+	color: #333;
+	border-left: 1px solid #e8e8e8;
+	margin: 0 0 0 20px;
+	padding: 15px 0 0px 20px;
+	float: left;
+	font-size: 13px;
+}
+
+/* Right Section header... */
+
+.right-header {
+	padding-top: 33px
+}
+.right-header ul li {
+	margin-right: 10px;
+	border: 0;
+	opacity: .5;
+	color: #333;
+	transition: all .2 ease-in-out;
+	text-decoration: none
+}
+.right-header ul a {
+	text-decoration-line: none
+}
+.right-header ul li:hover {
+	opacity: 1;
+	color: #333
+}
