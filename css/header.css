@@ -17,7 +17,7 @@
 .right-header {
 	padding-top: 33px
 }
-.right-header ul li {
+.right-header ul i {
 	margin-right: 10px;
 	border: 0;
 	opacity: .5;
@@ -28,7 +28,7 @@
 .right-header ul a {
 	text-decoration-line: none
 }
-.right-header ul li:hover {
+.right-header ul i:hover {
 	opacity: 1;
 	color: #333
 }

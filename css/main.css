@@ -1,6 +1,6 @@
 /* Import Css Style File... */
 @import url(header.css);
-
+@import url(navbar.css);
 /* Main style in Nevia */
 body {
 	font-size: 13px;
@@ -17,6 +17,18 @@ h1,h2,h3,h4,h5,h6 {
 	font-size: 16px;
 }
 
+a {
+	text-decoration: none;
+	color: #777
+}
+a:hover {
+	text-decoration: none;
+	color: #666
+}
+ul {
+	text-decoration: none;
+	list-style-type: none
+}
 /* Bootstrap 4 text input with search icon */
 .has-search .form-control {
     padding-left: 2.375rem;
@@ -34,8 +46,21 @@ h1,h2,h3,h4,h5,h6 {
     color: #aaa;
 }
 
+header, nav {
+	padding-bottom: 50px
+}
 /* Elements after a floating element will flow around it,
 Use the "clearfix" hack to fix the problem.............*/
 .clearfix {
 	clear: both
+}
+
+/* Hover dropdown in the Dropdown link */
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+/* Making navbar padding = 0 px */
+.navbar {
+	padding: 0px !important;
 }
