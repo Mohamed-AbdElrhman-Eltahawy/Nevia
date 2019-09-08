@@ -1,0 +1,23 @@
+.slid {
+	padding-bottom: 50px
+}
+.carousel-control-next {
+	right: -60px
+}
+
+.carousel-control-prev {
+	left: -60px
+}
+
+.slid:hover .carousel-control-next-icon {
+	background-color: #666;
+	z-index: 2;
+	height: 60px;
+	width: 30px
+}
+
+.slid:hover .carousel-control-prev-icon {
+	background-color: #4c4c4c;
+	height: 60px;
+	width: 30px
+}

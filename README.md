@@ -20,3 +20,7 @@ Footer | boxed
 * Added Header Section .
 
 * Added Navbar Section .
+
+* Added Slider Section .
+
+* Added Icon-Box Section .

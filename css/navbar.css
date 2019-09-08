@@ -1,5 +1,7 @@
-@font-face {
-	font-family: "glyphicons" !important
+.navbar {
+	z-index: 2;
+	margin-left: -9px;
+    margin-right: -12px
 }
 
 .navbar-bg-color {
@@ -81,4 +83,35 @@
 }
 .dropdown-navgation .mega {
 	width: 160px;
+}
+
+.navbar .left-corner {
+	border-color: transparent #888 transparent transparent;
+    border-width: 0 9px 9px 0;
+    float: left;
+    left: 1px;
+	display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: relative;
+    right: 1px;
+    top: 29px;
+    opacity: 0.58
+}
+
+	
+
+.navbar .right-corner {
+	border-color: #888 transparent transparent transparent;
+    border-width: 9px 9px 0 0;
+    float: right;
+    left: 98.1%;
+	display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: relative;
+    top: 29px;
+    opacity: .58;
 }

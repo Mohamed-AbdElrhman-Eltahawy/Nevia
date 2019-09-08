@@ -1,6 +1,8 @@
 /* Import Css Style File... */
 @import url(header.css);
 @import url(navbar.css);
+@import url(slider.css);
+@import url(icon-box.css);
 /* Main style in Nevia */
 body {
 	font-size: 13px;
