@@ -24,3 +24,5 @@ Footer | boxed
 * Added Slider Section .
 
 * Added Icon-Box Section .
+
+* Added Recent-Work Section .

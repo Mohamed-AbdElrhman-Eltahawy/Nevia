@@ -3,6 +3,8 @@
 @import url(navbar.css);
 @import url(slider.css);
 @import url(icon-box.css);
+@import url(recent-work.css);
+@import url(recent-news.css);
 /* Main style in Nevia */
 body {
 	font-size: 13px;
