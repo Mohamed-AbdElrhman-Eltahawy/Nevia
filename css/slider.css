@@ -7,14 +7,25 @@
 }
 
 .slid:hover .carousel-control-next-icon {
-	background-color: #666;
+	background-color: #4c4c4c;
 	z-index: 2;
 	height: 60px;
-	width: 30px
+	width: 30px;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 .slid:hover .carousel-control-prev-icon {
 	background-color: #4c4c4c;
 	height: 60px;
-	width: 30px
+	width: 30px;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.carousel-control-next-icon:hover {
+	background-color: #159FE6 !important
+}
+.carousel-control-prev-icon:hover {
+	background-color: #159FE6 !important
 }

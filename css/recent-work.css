@@ -58,7 +58,19 @@
 
 .slick-box {
 	text-align: center;
-	
+	cursor: pointer
+}
+
+.slick-box img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	border-bottom: 5px solid #ccc	
+}
+
+.slick-box img:hover {
+	opacity: .7;
+	border-bottom: 5px solid #159FE6
 }
 
 .slick-box h5 {
@@ -71,6 +83,6 @@
 
 .slick-text {
 	border-bottom: 1px solid #ccc;
-	margin: 10px
+	margin: 10px 10px 0 0
 	
 }

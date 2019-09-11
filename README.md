@@ -26,3 +26,5 @@ Footer | boxed
 * Added Icon-Box Section .
 
 * Added Recent-Work Section .
+
+* Added Recent-News .
