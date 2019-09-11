@@ -27,4 +27,4 @@ Footer | boxed
 
 * Added Recent-Work Section .
 
-* Added Recent-News .
+* Added Recent-News Section .
