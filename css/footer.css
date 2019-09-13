@@ -1,0 +1,118 @@
+footer {
+	background-color: #4c4c4c;
+	padding-top: 50px;
+	padding-bottom: 50px
+}
+
+footer h4 {
+	padding-bottom: 10px;
+	color: #fff
+}
+
+.about-footer {
+	float: left
+}
+
+.about-footer img {
+	width: 40%;
+	padding-bottom: 10px
+}
+
+.about-footer p {
+	color: #ddd;
+	line-height: 21px
+}
+
+.content-details i {
+	float: left;
+	margin: 5px 10px 0px 0px;
+	color: rgb(221, 221, 221)
+}
+
+.content-details p,
+.content-details a {
+	color: #ddd
+}
+
+.content-details a:hover {
+	color: #fff
+}
+
+.content-details p strong {
+	color: #fff
+}
+
+.photo-stream div {
+	margin-bottom: 5px;
+	padding: 0 !important;
+	margin: 0 !important
+}
+
+.photo-stream img {
+	width: 100%;
+	display: block;
+	max-width: 100%;
+	border: 5px solid #424242;
+	transition: all 200ms ease-in-out
+}
+
+.photo-stream img:hover {
+	border: 5px solid #169fe6;
+	transition: all 200ms ease-in-out
+}
+
+.twitter-content i {
+	float: left;
+	margin: 4px 4px 0 0
+}
+
+.twitter-content .twitter-help {
+	color: #fff !important
+}
+
+.twitter-content span {
+	display: block;
+	color: #ddd;
+	margin-bottom: 4px
+}
+
+;
+
+.twitter-content .twitter-days {
+	color: #666
+}
+
+.footer-bottom {
+	background-color: #424242;
+	padding-top: 15px
+}
+
+.footer-bottom .copyright {
+	color: #aaa;
+}
+
+.footer-bottom .copyright a {
+	color: #fff
+}
+
+.footer-bottom ul {
+	float: right;
+}
+
+.footer-bottom ul a {
+	color: #aaa;
+	transition: color .2s ease-in-out
+}
+
+.footer-bottom ul a:hover {
+	color: #fff
+}
+.footer-menu ul li {
+	display: inline-block;
+	margin-right: 4px
+}
+
+.footer-menu ul li::after {
+	content: "|";
+	height: 3px
+}
