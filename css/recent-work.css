@@ -1,3 +1,4 @@
+/* Main recent-work section */
 .recent-work {
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -5,47 +6,84 @@
 	border-bottom: 1px solid #E8E8E8
 }
 
+@media only screen and (max-width: 575px) {
+	.recent-work {
+		padding-bottom: 10px
+	}
+}
+
+/* Slick slider section */
 .slider-test {
-    width: 650px;
-    margin: 0 auto;
+	width: 650px;
+	margin: 0 auto;
 }
 
 .slider-test img {
-    width: 220px;
-    height: 160px;
+	width: 220px;
+	height: 160px;
 }
 
-.slick-prev {
-	left: -41.8% !important;
-	top: 45% !important
+/* Media for control of text and ( next & prev) arrow in mobile and other screen... */
+@media only screen and (max-width: 992px) {
+	.recent-text {
+		margin-bottom: 70px;
+		margin-top: 20px
+	}
+
+	.slick-prev {
+		top: -15% !important;
+		left: 15px !important;
+	}
+
+	.slick-next {
+		top: -15% !important;
+		left: 45px !important;
+	}
+
+	.slick-box img {
+		width: 100%;
+		height: auto
+	}
+
+	.slick-text {
+		margin: 0 !important
+	}
 }
 
-.slick-next {
-	left: -38.2% !important;
-	top: 45% !important;
-	
+@media (min-width: 992px) {
+	.slick-prev {
+		left: -41.8% !important;
+		top: 40% !important
+	}
+
+	.slick-next {
+		left: -37.9% !important;
+		top: 40% !important;
+
+	}
 }
 
+/* Some mutual characteristics between next and prev arrow.. */
 .slick-prev,
 .slick-next {
 	font-size: 0;
-    line-height: 0;
-    position: absolute;
-    top: 50%;
-    display: block;
-    width: 25px !important;
-    height: 25px !important;
-    padding: 0;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    cursor: pointer;
-    color: #eee !important;
-    border-radius: 5px solid #c8c8c8 !important;
-    outline: none;
-    background: #c8c8c8 !important;
+	line-height: 0;
+	position: absolute;
+	top: 50%;
+	display: block;
+	width: 25px !important;
+	height: 25px !important;
+	padding: 0;
+	-webkit-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	cursor: pointer;
+	color: #eee !important;
+	border-radius: 5px solid #c8c8c8 !important;
+	outline: none;
+	background: #c8c8c8 !important;
 	transition: all 200ms ease-in-out ! important;
-	box-shadow: inset 0 -1px 0 0 rgba(0,0,0,.05) !important
+	box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, .05) !important
 }
 
 .slick-next:hover {
@@ -65,7 +103,7 @@
 	opacity: 1;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
-	border-bottom: 5px solid #ccc	
+	border-bottom: 5px solid #ccc
 }
 
 .slick-box img:hover {
@@ -84,5 +122,10 @@
 .slick-text {
 	border-bottom: 1px solid #ccc;
 	margin: 10px 10px 0 0
-	
+}
+
+@media only screen and (max-width: 767px) {
+	.slick-text {
+		margin: 10px 200px 0 0
+	}
 }

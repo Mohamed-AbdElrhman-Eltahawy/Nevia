@@ -4,6 +4,26 @@ footer {
 	padding-bottom: 50px
 }
 
+@media only screen and (max-width: 992px) {
+	.about-footer img {
+		margin-bottom: 20px
+	}
+
+	.about-footer {
+		margin-bottom: 40px
+	}
+
+	.twitter {
+		margin-top: 40px
+	}
+
+	.footer-bottom ul {
+		float: left !important;
+		margin-top: 10px;
+		padding: 0
+	}
+}
+
 footer h4 {
 	padding-bottom: 10px;
 	color: #fff
@@ -84,7 +104,7 @@ footer h4 {
 
 .footer-bottom {
 	background-color: #424242;
-	padding-top: 15px
+	padding-top: 20px
 }
 
 .footer-bottom .copyright {
@@ -107,6 +127,7 @@ footer h4 {
 .footer-bottom ul a:hover {
 	color: #fff
 }
+
 .footer-menu ul li {
 	display: inline-block;
 	margin-right: 4px

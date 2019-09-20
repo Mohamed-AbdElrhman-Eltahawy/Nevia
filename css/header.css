@@ -1,3 +1,16 @@
+/* This media for disable a horizontal scroll on mobile screen... */
+@media only screen and (max-width: 1200px) {
+
+	html,
+	body {
+		overflow-x: hidden
+	}
+
+	body {
+		position: relative
+	}
+}
+
 /* Left Section in header... */
 .left-header {
 	padding-top: 60px
@@ -12,11 +25,22 @@
 	font-size: 13px;
 }
 
+@media only screen and (max-width: 767px) {
+	.right-header {
+		display: none
+	}
+
+	.header-text {
+		display: none
+	}
+}
+
 /* Right Section header... */
 
 .right-header {
 	padding-top: 33px
 }
+
 .right-header ul i {
 	margin-right: 10px;
 	border: 0;
@@ -25,9 +49,11 @@
 	transition: all .2 ease-in-out;
 	text-decoration: none
 }
+
 .right-header ul a {
 	text-decoration-line: none
 }
+
 .right-header ul i:hover {
 	opacity: 1;
 	color: #333

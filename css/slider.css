@@ -6,6 +6,28 @@
 	left: -60px
 }
 
+@media only screen and (max-width: 992px) {
+
+	.carousel-control-next {
+
+		right: 0px
+	}
+
+	.carousel-control-prev {
+		left: 0px
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.carousel-control-next {
+		right: -50px
+	}
+
+	.carousel-control-prev {
+		left: -50px
+	}
+}
+
 .slid:hover .carousel-control-next-icon {
 	background-color: #4c4c4c;
 	z-index: 2;
@@ -26,6 +48,7 @@
 .carousel-control-next-icon:hover {
 	background-color: #159FE6 !important
 }
+
 .carousel-control-prev-icon:hover {
 	background-color: #159FE6 !important
 }

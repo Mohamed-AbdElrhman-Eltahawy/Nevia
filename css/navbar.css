@@ -1,20 +1,91 @@
+/* Left Section in header... */
+.left-header {
+	padding-top: 60px
+}
+
+.header-text {
+	color: #333;
+	border-left: 1px solid #e8e8e8;
+	margin: 0 0 0 20px;
+	padding: 15px 0 0px 20px;
+	float: left;
+	font-size: 13px;
+}
+ /* Dropdown-Menu */
+.custom-menu {
+	display: none
+}
+
+@media only screen and (max-width: 992px) {
+	.navbar {
+		display: none
+	}
+
+	.right-header {
+		display: none
+	}
+
+	.header-text {
+		display: none
+	}
+
+	/* Style of dropdown-menu in other screen */
+	.custom-menu {
+		display: block;
+		width: 100%;
+		cursor: pointer;
+		padding: 10px;
+		margin: 0px 0px 50px 0px;
+		font-size: 15px;
+		border: 1px solid #e0e0e0;
+		color: #888;
+		background: #fff;
+		box-shadow: 0 2px 0 0 rgba(0, 0, 0, .03)
+	}
+}
+
+/* Right Section header... */
+
+.right-header {
+	padding-top: 33px
+}
+
+.right-header ul i {
+	margin-right: 10px;
+	border: 0;
+	opacity: .5;
+	color: #333;
+	transition: all .2 ease-in-out;
+	text-decoration: none
+}
+
+.right-header ul a {
+	text-decoration-line: none
+}
+
+.right-header ul i:hover {
+	opacity: 1;
+	color: #333
+}
+
+/* Main Navbar */
 .navbar {
 	z-index: 2;
 	margin-left: -9px;
-    margin-right: -12px
+	margin-right: -12px
 }
 
 .navbar-bg-color {
-	background-color: #4c4c4c 
+	background-color: #4c4c4c
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
 	color: #fff;
 	height: 50px;
-    line-height: 2.3;
+	line-height: 2.3;
 }
 
-.navbar-items  {
+.navbar-items {
 	border-right: 1px solid #666
 }
 
@@ -22,9 +93,10 @@
 .navbar-items:hover {
 	background-color: #707070
 }
+
 .navbar .active,
 .navbar .active:hover {
-	background-color:#169fe6;
+	background-color: #169fe6;
 	border-right: 1px solid #169fe6
 }
 
@@ -36,29 +108,33 @@
 	padding: 0px 9px;
 	font-size: 18px;
 }
+
 .navbar-items li {
 	margin: 5px 0px 5px 0px
 }
+
 .dropdown-toggle::after {
 	display: none
 }
 
 .dropdown-item {
-	color: #777	
+	color: #777
 }
+
 .dropdown-item:hover {
 	background-color: #f5f5f5
 }
 
 .dropdown-menu h5 {
 	font-size: 13px;
-    color: rgb(136, 136, 136);
-    font-weight: 400;
-    padding: 10px 0px 10px 0px;
-    letter-spacing: 0px;
-    
-    border-bottom: 1px solid rgb(224, 224, 224);
+	color: rgb(136, 136, 136);
+	font-weight: 400;
+	padding: 10px 0px 10px 0px;
+	letter-spacing: 0px;
+
+	border-bottom: 1px solid rgb(224, 224, 224);
 }
+
 .dropdown-navgation {
 	width: 600px
 }
@@ -73,6 +149,7 @@
 	font-size: 14px;
 	color: #888
 }
+
 .paragraph-font-size a {
 	text-decoration: underline
 }
@@ -81,37 +158,47 @@
 	color: #555;
 	text-decoration: underline
 }
+
 .dropdown-navgation .mega {
 	width: 160px;
 }
 
 .navbar .left-corner {
 	border-color: transparent #888 transparent transparent;
-    border-width: 0 9px 9px 0;
-    float: left;
-    left: 1px;
+	border-width: 0 9px 9px 0;
+	float: left;
+	left: 1px;
 	display: block;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    position: relative;
-    right: 1px;
-    top: 29px;
-    opacity: 0.58
+	width: 0;
+	height: 0;
+	border-style: solid;
+	position: relative;
+	right: 1px;
+	top: 29px;
+	opacity: 0.58
 }
 
-	
+
 
 .navbar .right-corner {
 	border-color: #888 transparent transparent transparent;
-    border-width: 9px 9px 0 0;
-    float: right;
-    left: 98.1%;
+	border-width: 9px 9px 0 0;
+	float: right;
+	left: 98.1%;
 	display: block;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    position: relative;
-    top: 29px;
-    opacity: .58;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	position: relative;
+	top: 29px;
+	opacity: .58;
+}
+
+/* Media for hidden a right & left corner in some screens */
+@media only screen and (max-width: 992px) {
+
+	.navbar .right-corner,
+	.navbar .left-corner {
+		display: none
+	}
 }

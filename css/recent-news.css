@@ -1,12 +1,47 @@
+/* Main recent-news section */
 .recent-news {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	height: 300px
 }
 
+@media only screen and (max-width: 575px) {
+	.recent-news {
+		padding-top: 10px
+	}
+}
+
+
+/* Media for control of main section, news data and any main header in recent-news section.. */
+@media only screen and (max-width: 992px) {
+	.recent-news {
+		padding-left: 10px;
+		padding-right: 10px
+	}
+
+	.news-data {
+		max-width: 15%
+	}
+
+	.recent-header {
+		padding-left: 5px
+	}
+}
+
+@media (min-width: 992px) {
+	.news-first {
+		max-width: 32%
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.news-second {
+		margin-top: 69px !important
+	}
+}
 .news-second {
 	margin-top: 50px
 }
+
 .recent-news h3 span {
 	color: #888;
 	font-weight: 200
@@ -16,9 +51,6 @@
 	margin-bottom: 25px
 }
 
-.news-text {
-	max-width: 70%
-}
 .news-data span {
 	display: block
 }
@@ -34,48 +66,59 @@
 }
 
 .month {
-    background: #ccc;
-    padding: 0 10px 2px;
-    color: #fff;
+	background: #ccc;
+	padding: 0 10px 2px;
+	color: #fff;
 	text-align: center;
-    border-radius: 0 0 2px 2px;
-    box-shadow: inset 0 -1px 0 0 rgba(0,0,0,.07)
+	border-radius: 0 0 2px 2px;
+	box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, .07)
+}
+
+/* Control of visual displaying data & Month */
+@media only screen and (max-width: 575px) {
+	.news-data .day {
+		padding: 10px 0
+	}
+	.news-data .month {
+		padding: 0 0 2px
+	}
 }
 
 
+/* Testimonial section */
 .testim .t-overlay {
 	padding: 20px;
-    position: relative;
+	position: relative;
 	background: #f3f3f3;
 	border-radius: .4em;
-	box-shadow: inset 0 -1px 0 0 rgba(0,0,0,.06)
+	box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, .06)
 }
 
 .testim .t-overlay:after {
 	content: '';
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 10px;
-    width: 0;
-    height: 0;
-    border: 25px solid transparent;
-    border-top-color: #f3f3f3;
-    border-bottom: 0;
-    border-right: 0;
-    margin-left: 10px;
-    margin-bottom: -24px;
-	box-shadow: inset 0 -1px 0 0 rgba(0,0,0,.06)
-	
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+	width: 0;
+	height: 0;
+	border: 25px solid transparent;
+	border-top-color: #f3f3f3;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: 10px;
+	margin-bottom: -24px;
+	box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, .06)
 }
 
 .testim q {
-    color: #91969b;
-    line-height: 2.2;
+	color: #91969b;
+	line-height: 2.2;
 }
+
 .testim .testimonial-author {
-    color: #169fe6;
-    padding-top: 60px;
+	color: #169fe6;
+	padding-top: 60px;
 	float: right
 }
 
@@ -84,9 +127,9 @@
 }
 
 .testim .slider-testim > div {
-    display: none
+	display: none
 }
 
 .testim .slider-testim .active-slider {
-    display: block
+	display: block
 }
