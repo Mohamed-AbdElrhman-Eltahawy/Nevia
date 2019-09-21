@@ -6,19 +6,27 @@
 @import url(recent-work.css);
 @import url(recent-news.css);
 @import url(footer.css);
+
 /* Main style in Nevia */
 body {
 	font-size: 13px;
-    line-height: 21px;
-    color: #666;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
+	line-height: 21px;
+	color: #666;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
 }
-h1,h2,h3,h4,h5,h6 {
-	font-family: open sans,helveticaneue,helvetica neue,Helvetica,Arial,sans-serif;
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: open sans, helveticaneue, helvetica neue, Helvetica, Arial, sans-serif;
 	color: #333;
-    font-weight: 600;
-    letter-spacing: .2px;
+	font-weight: 600;
+	letter-spacing: .2px;
 	font-size: 16px;
 }
 
@@ -26,34 +34,39 @@ a {
 	text-decoration: none;
 	color: #777
 }
+
 a:hover {
 	text-decoration: none;
 	color: #666
 }
+
 ul {
 	text-decoration: none;
 	list-style-type: none
 }
+
 /* Bootstrap 4 text input with search icon */
 .has-search .form-control {
-    padding-left: 2.375rem;
+	padding-left: 2.375rem;
 }
 
 .has-search .form-control-feedback {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-    line-height: 2.375rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
+	position: absolute;
+	z-index: 2;
+	display: block;
+	width: 2.375rem;
+	height: 2.375rem;
+	line-height: 2.375rem;
+	text-align: center;
+	pointer-events: none;
+	color: #aaa;
 }
 
-header, nav {
+header,
+nav {
 	padding-bottom: 50px
 }
+
 /* Elements after a floating element will flow around it,
 Use the "clearfix" hack to fix the problem.............*/
 .clearfix {
@@ -61,8 +74,8 @@ Use the "clearfix" hack to fix the problem.............*/
 }
 
 /* Hover dropdown in the Dropdown link */
-.dropdown:hover>.dropdown-menu {
-  display: block;
+.dropdown:hover > .dropdown-menu {
+	display: block;
 }
 
 /* Making navbar padding = 0 px */

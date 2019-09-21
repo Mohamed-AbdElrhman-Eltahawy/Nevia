@@ -10,13 +10,16 @@
 	}
 }
 
+@media only screen and (max-width: 1440px) {
+	.recent-news {
+		padding-left: 15px;
+		padding-right: 10px
+	}
+
+}
 
 /* Media for control of main section, news data and any main header in recent-news section.. */
 @media only screen and (max-width: 992px) {
-	.recent-news {
-		padding-left: 10px;
-		padding-right: 10px
-	}
 
 	.news-data {
 		max-width: 15%
@@ -38,6 +41,7 @@
 		margin-top: 69px !important
 	}
 }
+
 .news-second {
 	margin-top: 50px
 }
@@ -79,6 +83,7 @@
 	.news-data .day {
 		padding: 10px 0
 	}
+
 	.news-data .month {
 		padding: 0 0 2px
 	}

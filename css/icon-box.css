@@ -3,13 +3,19 @@
 	margin: 40px 0 45px
 }
 
-.text-design {
-	padding: 0
-}
-
-/* Meid for text-design to control of width in mobile screen */
-@media (max-width: 768px) {
-	.text-design {
-		margin: 10px 0
+@media only screen and (max-width: 992px) {
+	.icon-box {
+		padding-left: 10px;
+		padding-right: 10px
 	}
-}
+
+	.text-design {
+		padding: 0
+	}
+
+	/* Meid for text-design to control of width in mobile screen */
+	@media (max-width: 768px) {
+		.text-design {
+			margin: 10px 0
+		}
+	}
